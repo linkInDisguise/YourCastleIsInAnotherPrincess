@@ -23,11 +23,25 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            _rgbd.position += new Vector2(10.0f, 0.0f) * Time.deltaTime;
+            if (isJumping == false)
+            {
+                _rgbd.position += new Vector2(10.0f, 0.0f) * Time.deltaTime;
+            }
+            else
+            {
+                _rgbd.position += new Vector2(6.0f, 0.0f) * Time.deltaTime;
+            }
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            _rgbd.position += new Vector2(-10.0f, 0.0f) * Time.deltaTime;
+            if (isJumping == false)
+            { 
+                    _rgbd.position += new Vector2(-10.0f, 0.0f) * Time.deltaTime;
+            }
+            else
+            {
+                _rgbd.position += new Vector2(-6.0f, 0.0f) * Time.deltaTime;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && isJumping == false)
