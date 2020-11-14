@@ -32,12 +32,9 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && isJumping == false)
         {
-<<<<<<< HEAD
-            _rgbd.AddForce(new Vector2(0.0f, 1500.0f));
-=======
             isJumping = true;
             _rgbd.AddForce(new Vector2(0.0f, 400.0f));
->>>>>>> e5eb69b... Movement angepasst
+
         }
     }
 }
