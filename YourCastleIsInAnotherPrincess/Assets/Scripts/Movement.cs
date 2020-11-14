@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _rgbd.AddForce(new Vector2(0.0f, 1500.0f));
+            _rgbd.AddForce(new Vector2(0.0f, 400.0f));
         }
     }
 }
