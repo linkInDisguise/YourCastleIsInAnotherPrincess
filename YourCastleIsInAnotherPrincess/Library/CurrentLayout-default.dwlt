@@ -330,14 +330,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 1107963970443244582, guid: f07b6955ee40a5f4186f7c5fe592c77f, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.6692143
       e01: 0
       e02: 0
-      e03: 3
+      e03: -29.504562
       e10: 0
-      e11: 1
+      e11: 0.6692143
       e12: 0
-      e13: 335
+      e13: 193.88408
       e20: 0
       e21: 0
       e22: 1
@@ -401,22 +401,22 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
-    - Assets/BayatGames
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/BayatGames
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\felix\Desktop\GameJam\YourCastleIsInAnotherPrincess\YourCastleIsInAnotherPrincess
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 469c0000
-    m_LastClickedID: 40006
-    m_ExpandedIDs: 00000000009c0000029c0000049c0000069c0000089c00000a9c00000c9c00000e9c0000109c0000129c0000149c0000169c0000189c00001a9c00001c9c00001e9c0000209c0000229c0000249c000000ca9a3b
+    scrollPos: {x: 0, y: 404}
+    m_SelectedIDs: 709c0000
+    m_LastClickedID: 40048
+    m_ExpandedIDs: 00000000249c0000269c0000289c00002a9c00002c9c00002e9c0000309c0000329c0000349c0000369c0000389c00003a9c00003c9c00003e9c0000409c0000429c0000449c0000469c0000489c00006c9c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,7 +444,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000009c0000029c0000049c0000069c0000089c00000a9c00000c9c00000e9c0000109c0000129c0000149c0000169c0000189c00001a9c00001c9c00001e9c0000209c0000229c0000249c0000
+    m_ExpandedIDs: 00000000249c0000269c0000289c00002a9c00002c9c00002e9c0000309c0000329c0000349c0000369c0000389c00003a9c00003c9c00003e9c0000409c0000429c0000449c0000469c0000489c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000805300000c4c00007e7000008470000078530000f861000060540000563a0000523a00004e3a0000d23a0000163c0000543c0000403c0000483c0000403900002c440000304400004c3c0000dc410000ec410000f041000078440000ee3900000000000024460000344600009a1a030044380600102e06005c2e0600a01a0300aa1a0300b41a0300281a0300d83c0000981b0300
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -569,7 +569,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 66fbffff
+      m_ExpandedIDs: b013ffff38faffffe2390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -629,9 +629,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 55.02671, y: 5.4241204, z: -541.0246}
+    m_Target: {x: 40.997597, y: 23.149393, z: -611.8091}
     speed: 2
-    m_Value: {x: 55.02671, y: 5.4241204, z: -541.0246}
+    m_Value: {x: 41.528404, y: 25.739424, z: -611.5303}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -681,9 +681,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 14.899781
+    m_Target: 73.98062
     speed: 2
-    m_Value: 14.899781
+    m_Value: 77.46662
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -759,8 +759,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -721
     m_HBaseRangeMax: 721
-    m_VBaseRangeMin: -474.5
-    m_VBaseRangeMax: 474.5
+    m_VBaseRangeMin: -464
+    m_VBaseRangeMax: 464
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -777,11 +777,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1442
-      height: 949
+      height: 928
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 721, y: 474.5}
+    m_Translation: {x: 721, y: 464}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -789,9 +789,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -721
-      y: -474.5
+      y: -464
       width: 1442
-      height: 949
+      height: 928
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1442, y: 949}
