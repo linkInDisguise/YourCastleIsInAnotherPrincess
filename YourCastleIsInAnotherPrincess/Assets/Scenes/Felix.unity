@@ -413,6 +413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &101306473
@@ -839,6 +844,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpikeTile (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8102191755164790895, guid: 378d9c899f3e4694892bf5644aa2a75e,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 378d9c899f3e4694892bf5644aa2a75e, type: 3}
 --- !u!1001 &482015295
@@ -932,12 +942,12 @@ PrefabInstance:
     - target: {fileID: 7113080647749487396, guid: c0b5ead27adc8bd4b81e23281afede8e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7
+      value: -6.95
       objectReference: {fileID: 0}
     - target: {fileID: 7113080647749487396, guid: c0b5ead27adc8bd4b81e23281afede8e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -3.36
       objectReference: {fileID: 0}
     - target: {fileID: 7113080647749487396, guid: c0b5ead27adc8bd4b81e23281afede8e,
         type: 3}
@@ -1168,11 +1178,11 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0022814274, y: 1.1855857}
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0.36}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1.5, y: 1.6}
     newSize: {x: 1.5, y: 1.6}
     adaptiveTilingThreshold: 0.5
@@ -1242,7 +1252,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006844759, y: 0.77490264}
+  m_Offset: {x: 0.006844759, y: 0}
   serializedVersion: 2
   m_Radius: 0.76349527
 --- !u!1001 &758623060
@@ -2331,6 +2341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1140903014
@@ -2814,6 +2829,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1168836102
@@ -3171,6 +3191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1354466153
@@ -3384,6 +3409,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1406949272
@@ -3873,6 +3903,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1508044248
@@ -3942,6 +3977,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1567897569
@@ -4080,6 +4120,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1674589494
@@ -4218,6 +4263,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6391437243072716173, guid: 675bfbc0d131f3f4483a8a20af83db78,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 747593318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675bfbc0d131f3f4483a8a20af83db78, type: 3}
 --- !u!1001 &1702332331

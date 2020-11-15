@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DeathZone : MonoBehaviour
 {
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class DeathZone : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
+            anim.SetBool("isDead", true);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
