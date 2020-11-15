@@ -2,27 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour 
+public class Movement : MonoBehaviour
 {
     private Rigidbody2D _rgbd = null;
-    public bool isJumping; 
+    SpriteRenderer _SpriteRenderer = null;
+    public Animator animator;
+    public bool isJumping = false;
 
+    float horizontalMove = 0f;
     // Start is called before the first frame update
     void Start()
     {
         _rgbd = GetComponent<Rigidbody2D>();
+        _SpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
         isJumping = false;
+        animator.SetBool("IsJumping", false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        horizontalMove = Input.GetAxisRaw("Horizontal");
+
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
         if (Input.GetKey(KeyCode.RightArrow))
         {
+            _SpriteRenderer.flipX = false;
             if (isJumping == false)
             {
                 _rgbd.position += new Vector2(10.0f, 0.0f) * Time.deltaTime;
@@ -34,9 +44,10 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
+            _SpriteRenderer.flipX = true;
             if (isJumping == false)
-            { 
-                    _rgbd.position += new Vector2(-10.0f, 0.0f) * Time.deltaTime;
+            {
+                _rgbd.position += new Vector2(-10.0f, 0.0f) * Time.deltaTime;
             }
             else
             {
@@ -47,6 +58,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isJumping == false)
         {
             isJumping = true;
+            animator.SetBool("IsJumping", true);
             _rgbd.AddForce(new Vector2(0.0f, 400.0f));
         }
     }
