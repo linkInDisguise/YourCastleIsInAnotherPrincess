@@ -10,6 +10,7 @@ public class Crushed : MonoBehaviour
     public GameObject Warning;
     GameObject tmpObj = null;
     public AudioSource[] source;
+    public GameObject player;
 
     void Start()
     {
@@ -17,19 +18,25 @@ public class Crushed : MonoBehaviour
         source = GetComponents<AudioSource>();
     }
 
-    void update()
+    void Update()
     {
+        Debug.Log("Test");
+        if(tmpObj != null)
+        {
+            Debug.Log(tmpObj.transform.position);
+        }
         //Vec2 pos = new Vec2(gameObject.transform.position.x, 7);
         
-        if (gameObject.transform.position.y == 15)
+        if (15 < (gameObject.transform.position.y - player.transform.position.y) && (gameObject.transform.position.y - player.transform.position.y) < 16 && tmpObj == null)
         {
            tmpObj = Instantiate(Warning, new Vector3(gameObject.transform.position.x, 0, 0), Quaternion.identity);
         }
-        else if (7 < gameObject.transform.position.y && gameObject.transform.position.y < 15)
+        else if (7 < (gameObject.transform.position.y - player.transform.position.y) && (gameObject.transform.position.y - player.transform.position.y) < 15 && tmpObj != null) 
         {
             tmpObj.transform.position = new Vector3(gameObject.transform.position.x, 0, 0);
+
         }
-        else if (gameObject.transform.position.y == 7)
+        else if (5 < (gameObject.transform.position.y - player.transform.position.y) && (gameObject.transform.position.y - player.transform.position.y) < 6 && tmpObj != null)
         {
             DestroyImmediate(tmpObj);
         }

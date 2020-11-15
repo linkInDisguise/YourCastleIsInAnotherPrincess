@@ -149,6 +149,7 @@ MonoBehaviour:
   anim: {fileID: 7113080647749487397, guid: c0b5ead27adc8bd4b81e23281afede8e, type: 3}
   Warning: {fileID: 954607577056614937, guid: 534fe536521d61a4a8f87cffec7a4651, type: 3}
   source: []
+  player: {fileID: 872457399503425224, guid: 74813a598f1336f4eaa3e28902cd1384, type: 3}
 --- !u!114 &3904342012227990813
 MonoBehaviour:
   m_ObjectHideFlags: 0
