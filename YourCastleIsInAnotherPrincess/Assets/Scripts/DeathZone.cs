@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class DeathZone : MonoBehaviour
 {
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,8 @@ public class DeathZone : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            anim.SetBool("isDead", true);//Use the length of the animation clip as the wait time for yield
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);//reload the current level
         }
     }
 }
