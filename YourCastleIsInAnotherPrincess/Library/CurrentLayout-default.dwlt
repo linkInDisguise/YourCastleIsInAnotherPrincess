@@ -414,9 +414,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 250}
-    m_SelectedIDs: d65c0000
-    m_LastClickedID: 23766
-    m_ExpandedIDs: 0000000000480000024800000448000006480000084800000a4800000c4800000e48000010480000124800001448000016480000184800001a4800001c4800001e480000204800003448000000ca9a3b
+    m_SelectedIDs: fa420000
+    m_LastClickedID: 17146
+    m_ExpandedIDs: 00000000ba420000bc420000be420000c0420000c2420000c4420000c6420000c8420000ca420000cc420000ce420000d0420000d2420000d4420000d6420000d8420000da420000ec42000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,7 +444,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000000480000024800000448000006480000084800000a4800000c4800000e48000010480000124800001448000016480000184800001a4800001c4800001e48000020480000
+    m_ExpandedIDs: 00000000ba420000bc420000be420000c0420000c2420000c4420000c6420000c8420000ca420000cc420000ce420000d0420000d2420000d4420000d6420000d8420000da420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000805300000c4c00007e7000008470000078530000f86100006054000000000000563a0000523a00004e3a0000d23a0000463e0000ec39000026430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -566,10 +566,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 11798}
+      scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 24b9feffb6bcfeff46cafeff5267ffff508affffe4b1ffff6eb8ffff30baffff
+      m_ExpandedIDs: 66fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -629,9 +629,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.396089, y: 59.489376, z: -1266.5352}
+    m_Target: {x: 5.0676274, y: 63.644283, z: -1267.4744}
     speed: 2
-    m_Value: {x: 9.396089, y: 59.489376, z: -1266.5352}
+    m_Value: {x: 5.0676274, y: 63.644283, z: -1267.4744}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -681,9 +681,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 31.076752
+    m_Target: 40.470013
     speed: 2
-    m_Value: 29.738518
+    m_Value: 40.470013
   m_Ortho:
     m_Target: 1
     speed: 2
