@@ -8,6 +8,7 @@ public class MovementInverted : MonoBehaviour
     SpriteRenderer _SpriteRenderer = null;
     public Animator animator;
     public bool isJumping = false;
+    private AudioSource source;
     
     float horizontalMove = 0f;
     // Start is called before the first frame update
@@ -15,6 +16,7 @@ public class MovementInverted : MonoBehaviour
     {
         _rgbd = GetComponent<Rigidbody2D>();
         _SpriteRenderer = GetComponent<SpriteRenderer>();
+        source = GetComponent<AudioSource>();
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -60,6 +62,7 @@ public class MovementInverted : MonoBehaviour
             isJumping = true;
             animator.SetBool("IsJumping", true);
             _rgbd.AddForce(new Vector2(0.0f, 400.0f));
+            source.Play();
         }
     }
 }

@@ -9,10 +9,12 @@ public class Crushed : MonoBehaviour
     public Animator anim;
     public GameObject Warning;
     GameObject tmpObj = null;
+    public AudioSource[] source;
 
     void Start()
     {
         originalPosition = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        source = GetComponents<AudioSource>();
     }
 
     void update()
@@ -36,12 +38,14 @@ public class Crushed : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Player")
-        {
+        { 
             anim.SetBool("isDead", true);
+            source[1].Play();
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         else
         {
+            source[0].Play();
             gameObject.transform.position = originalPosition;
         }
     }

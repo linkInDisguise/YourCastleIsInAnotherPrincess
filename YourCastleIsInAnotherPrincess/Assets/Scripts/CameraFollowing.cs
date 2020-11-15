@@ -29,7 +29,7 @@ public class CameraFollowing : MonoBehaviour
             newPosition = Vector2.Lerp(
             new Vector2(transform.position.x, transform.position.y),
             new Vector2(_player.position.x, _player.position.y + 2.0f),
-            0.01f);
+            0.1f);
         }
         transform.position = new Vector3(newPosition.x, newPosition.y, transform.position.z);
     }
