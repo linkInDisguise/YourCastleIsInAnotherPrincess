@@ -59,10 +59,11 @@ public class MovementInverted : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && isJumping == false)
         {
+            source.Play();
             isJumping = true;
             animator.SetBool("IsJumping", true);
             _rgbd.AddForce(new Vector2(0.0f, 400.0f));
-            source.Play();
+            
         }
     }
 }
